@@ -1,0 +1,111 @@
+@import url(fontello.css);
+html, body{
+    margin: 0;
+    padding: 0;
+    background: #f4f7fa
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.content-header{
+    width: 100%;
+    height: 80px;
+    background: #0080ff;
+}
+.content-header .header{
+    margin: 0 10%;
+}
+.content-header .header .exchange{
+    padding-top: 20px;
+}
+.content-header .header .exchange, .user{
+    float: left;
+    width: 50%;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+.content-header .header .user{
+    width: 50%;
+    padding-top: 25px;
+    text-align: right
+}
+.content-header .header .user a{
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+}
+.content-header .header .user a:hover{
+    color: rgb(177, 177, 177);
+    transition: .5s;
+}
+.content-categoria{
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    margin-bottom: 30px;
+    box-shadow: 0 2px rgba(131, 131, 131, 0.397);
+}
+.categoria{
+    margin: 0 10%;
+}
+.categoria .list-categoria ul{
+    margin: 0 ;
+}
+.categoria .list-categoria ul li{
+    padding: 0;
+    word-spacing: 15px;
+    margin-top: 20px
+
+}
+.categoria .list-categoria ul li .active{
+    border-bottom: solid 1px #0080ff;
+}
+.categoria .list-categoria ul li .active:hover{
+    border-bottom: solid 1px #0080ff;
+}
+.categoria .list-categoria ul li .nav-link:hover{
+    border-bottom: solid 1px #0080ffaf;
+}
+.categoria .list-categoria ul li a{
+    text-decoration: none;
+    
+}
+
+.box-titulo-btc{
+    background: #f4f7fa;
+    margin-bottom: 30px;
+}
+.grafica-line{
+    width: 100%;
+    padding: 0 10%;
+    float: left;
+}
+.footer{
+    position: relative;
+    width: 100%;
+    background: #0080ff;
+    color: #fff;
+    margin-top: 60px;
+    bottom: 0;
+    padding: 20px 20px;
+    text-align: center;
+    clear: both;
+    float: left;
+}
+.footer p{
+    margin: 20px;
+}
+@media (max-width:1024px){
+    .footer{
+        position: relative;
+        background: #0080ff;
+        margin-top: 60px;
+        padding: 20px 20px;
+        text-align: center; 
+    }
+}
+.porcentaje-negativo{
+    color: red;
+    font-size: 20px;
+}

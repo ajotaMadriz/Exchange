@@ -1,0 +1,226 @@
+.body{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: #fff;
+    font-family: sans-serif;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.skew{
+    margin-top: -200px;
+    padding: 200px 0;
+    transform: skew(0deg, -10deg);
+    background: #0080ff;
+    box-shadow: rgba(0,0,0,0.176) 0px 7.11481px 14.2296px 0px, rgba(0,0,0,0.17) 0px 5.33611px 17.787px 0px
+}
+.content{
+    transform: skew(0deg, 10deg);
+    margin: 0 10%;
+    padding-bottom: 100px;
+}
+.header{
+    height: 80px;
+    width: 100%;
+}
+.header2{
+    margin-top: 150px
+}
+.exchange{
+    width: 50%;
+    float: left;
+}
+.login{
+    width:50%;
+    float: left;
+}
+.header h2{
+    padding-top: 15px;
+    text-shadow: 3px 3px rgba(54, 54, 54, 0.651);
+}
+.header ul{
+    list-style: none;
+    float: right;
+    padding-top: 25px 
+}
+.header ul li{
+    display: inline;
+    font-size: 20px;
+    padding-left: 15px 
+}
+@media (max-width:1024px){
+    .header ul li{
+        display: block;
+        margin-bottom: 4%
+    }
+}
+.header ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: .5s
+}
+
+.header ul li a:hover{
+    color: rgb(177, 177, 177);
+    transition: .5s
+}
+.header ul li .registrarse{
+    border: solid 2px #fff;
+    border-radius: 2px;
+    padding: 10px;
+    transition: .5s;
+}
+.header ul li .registrarse:hover{
+    border: solid 2px #fff;
+    border-radius: 2px;
+    background: #fff;
+    color: #0080ff;
+    padding: 10px;
+    transition: .5s;
+}
+h1{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 40px;
+}
+.header2 p{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 16px;
+    margin: 0 20%
+}
+.row{
+    position: absolute;
+    bottom: -12%;
+    width: 101%;
+    height: 200px;
+    padding: 0 10%;
+    transform: skew(0deg, 10deg);
+}
+.row p{
+    color: rgb(104, 103, 103);
+    text-align: left
+}
+.row .crip{
+    width: 19%;
+    margin-right: 1%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.176) 0px 7.11481px 14.2296px 0px, rgba(0,0,0,0.17) 0px 5.33611px 17.787px 0px
+}
+.row .crip .boxcrip{
+    width: 100%;
+}
+.row .crip .boxcrip p{
+    text-align: center;
+    margin-top: 10px
+}
+@media (max-width:1024px){
+    .row .crip{
+        width: 49%;
+        height: 150px;
+        margin-right: 1%;
+        margin-top: 1%
+    }
+    .row .eth{
+        width: 100%;
+        margin-top: 1%;
+    }
+}
+@media (max-width:720px){
+    .row{
+        position: relative;
+    }
+    .row .crip{
+        width: 100%;
+        margin-top: 1%
+    }
+}
+.row .crip .boxcrip{
+    position: relative;
+    margin-top: 30px
+    /*top: 50%;
+    left: 25%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);*/
+}
+.crip .boxcrip .comprarcrip{
+    width: 100%;
+    text-align: center;
+    
+}
+.row .crip .comprarcrip a{
+    font-size: 20px;
+    border: solid 1px #00c57f;
+    border-radius: 5px;
+    background: #00c57f;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: .5s;
+    
+}
+.row .crip .comprarcrip a:hover{
+    border: solid 1px #00c57f;
+    background: #fff;
+    color: #00c57f;
+    transition: .5s;
+}
+/*.graph{
+    position: absolute;
+    bottom: -12%;
+    width: 100%;
+    transform: skew(0deg, 10deg);
+}
+.graph .boxgraph{
+    width: 16%;
+    float: left;
+}
+.boxgraphleft{
+    margin-left: 10%
+}
+.boxgraphright{
+    margin-right: 10%
+}*/
+.footer{
+    position: relative;
+    background: #0080ff;
+    margin-top: 300px;
+    padding: 20px 20px;
+    text-align: center; 
+}
+.footer p{
+    margin: 20px;
+}
+@media (max-width:1024px){
+    .footer{
+        position: relative;
+        background: #0080ff;
+        margin-top: 600px;
+        padding: 20px 20px;
+        text-align: center; 
+    }
+}
+.footer{
+    position: relative;
+    background: #0080ff;
+    color: #fff;
+    margin-top: 300px;
+    bottom: 0;
+    padding: 20px 20px;
+    text-align: center;
+    clear: both; 
+}
+.footer p{
+    margin: 20px;
+}
+@media (max-width:1024px){
+    .footer{
+        position: relative;
+        background: #0080ff;
+        margin-top: 600px;
+        padding: 20px 20px;
+        text-align: center; 
+    }
+}

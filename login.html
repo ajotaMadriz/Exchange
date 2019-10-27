@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/login.css" />
+</head>
+<body>
+    <div class="lore">
+        <form action="php/login.php" method="post">
+            <h1>Login</h1>
+            <input type="text" name="usuario" placeholder="Usuario">
+            <input type="password" name="clave" placeholder="Contraseña">
+            <!--<button type="submit"  class="btn">Iniciar</button>-->
+            <input type="button" value="Iniciar" class="btn" onclick="location.href='dashboard.html'">
+            
+            <a  href="registro.html">Registrate</a>
+        </form>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+</html>

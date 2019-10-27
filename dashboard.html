@@ -1,0 +1,1510 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/dashboard.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="content-header">
+        <div class="header">
+            <div class="exchange">
+                <h2>Exchange</h2>
+            </div>
+            <!--
+            <div class="user">
+                <p><a href="#">Usuario</a></p>
+            </div>
+            -->
+            <div class="user dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                    Usuario
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="index.html">Cerrar Sesión</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--
+    <div class="menu-segundario">
+        <div class="toggle"></div>
+
+        <div class="overlay"></div>
+
+        <div class="menu">
+            <ul class="nav" role="tablist">
+                <li class="nav-item">
+                    <a href="#dashboard" class="nav-link menu-a" data-toggle="tab">Tablero</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#comprar-vender" class="nav-link menu-a" data-toggle="tab">Comprar/vender</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#cuenta" class="nav-link menu-a" data-toggle="tab">Cuentas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#herramienta" class="nav-link menu-a" data-toggle="tab">Herramientas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#configuracion" class="nav-link menu-a" data-toggle="tab">Configuración</a>
+                </li>
+            </ul>
+        </div>
+    </div>-->
+    <div class="nav2">
+        <div class="toggle">
+            <ul class="nav" role="tablist">
+                <li class="nav-item"><a href="#dashboard" class="nav-link menu-a" data-toggle="tab">Tablero</a></li>
+                <li class="nav-item"><a href="#comprar-vender" class="nav-link menu-a" data-toggle="tab">Comprar/vender</a></li>
+                <li class="nav-item"><a href="#cuenta" class="nav-link menu-a" data-toggle="tab">Cuentas</a></li>
+                <li class="nav-item"><a href="#herramienta" class="nav-link menu-a" data-toggle="tab">Herramientas</a></li>
+                <li class="nav-item"><a href="#configuracion" class="nav-link menu-a" data-toggle="tab">Configuración</a></li>
+            </ul>
+        </div>
+    </div>    
+    <div class="content-categoria">
+        <div class="categoria">
+            <div class="list-categoria">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active icon-th-large-2" data-toggle="tab" href="#dashboard">Tablero</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  icon-retweet-1" data-toggle="tab" href="#comprar-vender">Comprar/vender</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  icon-folder-open" data-toggle="tab" href="#cuenta">Cuentas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link icon-wrench-4" data-toggle="tab" href="#herramienta">Herramientas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link icon-cog-alt" data-toggle="tab" href="#configuracion">Configuración</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="">
+
+            </div>
+        </div>
+    </div>
+    <div class="tab-content">
+        <div id="dashboard" class="tab-pane active">
+            <div class="pri-content-crip">
+                <div class="content-crip">
+                    <div class=" btc crip" >
+                        <div class="boxcrip">
+                            <p><img src="img/opengraph.png" width="25px"> Bitcoin </p>
+                            <p class="precio">VES 407.816,80</p>
+                            <div class="comprarcrip"> <a href="btc.html" target="black">Ver activo</a></div>
+                        </div>
+                    </div>
+                    <div class="crip" >
+                        <div class="boxcrip">
+                            <p><img src="img/2H84A92l_400x400.jpg" width="25px"> Bitcoin Cash </p>
+                            <p class="precio">VES 28.283,72</p>
+                            <div class="comprarcrip"> <a href="bch.html" target="black">Ver activo</a></div>
+                        </div>
+                    </div>
+                    <div class="crip" >
+                        <div class="boxcrip">
+                            <p><img src="img/ethereum_wonb3.jpg" width="25px"> Ethereum </p>
+                            <p class="precio">VES 12.821,22</p>
+                            <div class="comprarcrip"> <a href="eth.html" target="black">Ver activo</a></div>
+                        </div>
+                    </div>
+                    <div class="crip" >
+                        <div class="boxcrip">
+                            <p><img src="img/coin_icon_lightcoin.png" width="25px"> Litecoin </p>
+                            <p class="precio">VES 3.303,98</p>
+                            <div class="comprarcrip"> <a href="ltc.html" target="black">Ver activo</a></div>
+                        </div>
+                    </div>
+                    <div class="eth crip" >
+                        <div class="boxcrip">
+                            <p><img src="img/Ethereum-Classic-ETC-icon.png" width="25px"> Ethereum Classic </p>
+                            <p class="precio">VES </p>
+                            <div class="comprarcrip"> <a href="etc.html" target="black">Ver activo</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pri-content-vermas">
+                <div class="content-vermas">
+                    <p><a href="activos.html" target="black">Ver más archivos<span class="icon-right-open-1"></span></a></p>
+                </div>    
+            </div>
+            <div class="content-car">
+                <div class="carteracrip">
+                    <div class="sucartera">
+                        <p>Su cartera</p>
+                    </div>
+                    <ul class="list-cartera nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active icon-th-list-2" data-toggle="tab" href="#lista-crip">Lista</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link icon-chart-pie-alt" data-toggle="tab" href="#canvas-container">Gráfico</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="lista-crip" class="tab-pane active">
+                            <table class="table table-striped">
+                                <!--
+                                <thead>
+                                    <tr>
+                                        <th>Firstname</th>
+                                        <th>Lastname</th>
+                                        <th>Email</th>
+                                    </tr>
+                                </thead>
+                                -->
+                                <tbody>
+                                    <tr>
+                                        <td><img src="img/opengraph.png" width="35px"> Bitcoin</td>
+                                        <td>0,0000 BTC</td>
+                                        <td>00,00 VES</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="img/2H84A92l_400x400.jpg" style="border-radius: 50%" width="35px"> Bitcoin Cash</td>
+                                        <td>0,0000 BCH</td>
+                                        <td>00,00 VES</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="img/ethereum_wonb3.jpg" style="border-radius: 50%" width="35px"> Ethereum</td>
+                                        <td>0,0000 ETH</td>
+                                        <td>00,00 VES</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="img/coin_icon_lightcoin.png" width="35px"> Litecoin</td>
+                                        <td>0,0000 LTC</td>
+                                        <td>00,00 VES</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="img/Ethereum-Classic-ETC-icon.png" width="35px"> Ethereum Classic</td>
+                                        <td>0,0000 ETC</td>
+                                        <td>00,00 VES</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p class="text-center">Saldo total ≈ 0,00 VEF</p>
+                        </div>
+                        <!--grafia doughnut-->
+                        <div id="canvas-container" style="width: 100%;" class="tab-pane fade">
+                                <div class="saldo">    
+                                    <h2 class="text-center">00,00 VES</h2>
+                                    <p class="text-center">TOTAL SALDO</p>
+                                </div>
+                                <canvas id="chart">
+                                    
+                                </canvas> 
+                        </div>
+                        <!--fin de la grafia doughnut-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="comprar-vender" class="tab-pane content-comprar-vender">
+            <div class="comprar-vender">
+                <ul class="list-cartera nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active " data-toggle="tab" href="#comprar">Comprar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " data-toggle="tab" href="#vender">Vender</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " data-toggle="tab" href="#intercambiar">Intercambiar</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content">
+                <div id="comprar" class="tab-pane active" >
+                    <!--
+                    <img src="img/construccion.png" width="80%" class="img-construccion">
+                    -->
+                    <div class="pri-content-comprar">
+                        <div class="content-comprar mt-3">
+                            <form action="/action_page.php">
+                                <div class="input-group mb-3 w10">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">Cantidad</span>
+                                    </div>
+                                    <input type="text" class="form-control">
+                                </div>                                  
+                                <select name="cars" class="custom-select mb-3">
+                                    <!--<option selected>Custom Select Menu</option>-->
+                                    <option value="AED">AED</option>
+                                    <option value="AFN">AFN</option>
+                                    <option value="ALL">ALL</option>
+                                    <option value="AMD">AMD</option>
+                                    <option value="ANG">ANG</option>
+                                    <option value="AOA">AOA</option>
+                                    <option value="ARS">ARS</option>
+                                    <option value="AUD">AUD</option>
+                                    <option value="AWG">AWG</option>
+                                    <option value="AZN">AZN</option>
+                                    <option value="BAM">BAM</option>
+                                    <option value="BBD">BBD</option>
+                                    <option value="BDT">BDT</option>
+                                    <option value="BGN">BGN</option>
+                                    <option value="BHD">BHD</option>
+                                    <option value="BIT">BIF</option>
+                                    <option value="BMD">BMD</option>
+                                    <option value="BND">BND</option>
+                                    <option value="BOB">BOB</option>
+                                    <option value="BRL">BRL</option>
+                                    <option value="BSD">BSD</option>
+                                    <option value="BTN">BTN</option>
+                                    <option value="BWP">BWP</option>
+                                    <option value="BYR">BYR</option>
+                                    <option value="BZD">BZD</option>
+                                    <option value="CAD">CAD</option>
+                                    <option value="CDF">CDF</option>
+                                    <option value="CHF">CHF</option>
+                                    <option value="CLF">CLF</option>
+                                    <option value="CLP">CLP</option>
+                                    <option value="CNH">CNH</option>
+                                    <option value="CNY">CNY</option>
+                                    <option value="COP">COP</option>
+                                    <option value="CRC">CRC</option>
+                                    <option value="CUC">CUC</option>
+                                    <option value="COP">COP</option>
+                                    <option value="CVE">CVE</option>
+                                    <option value="CZK">CZK</option>
+                                    <option value="DASH">DASH</option>
+                                    <option value="DJF">DJF</option>
+                                    <option value="DKK">DKK</option>
+                                    <option value="DOP">DOP</option>
+                                    <option value="DZD">DZD</option>
+                                    <option value="EEK">EEK</option>
+                                    <option value="EGP">EGP</option>
+                                    <option value="ERN">ERN</option>
+                                    <option value="ETB">ETB</option>
+                                    <option value="ETH">ETH</option>
+                                    <option value="EUR">EUR</option>
+                                    <option value="FJD">FJD</option>
+                                    <option value="FKP">FKP</option>
+                                    <option value="GBP">GBP</option>
+                                    <option value="GEL">GEL</option>
+                                    <option value="GGP">GGP</option>
+                                    <option value="GHS">GHS</option>
+                                    <option value="GIP">GIP</option>
+                                    <option value="GMD">GMD</option>
+                                    <option value="GNF">GNF</option>
+                                    <option value="GTQ">GTQ</option>
+                                    <option value="GYD">GYD</option>
+                                    <option value="HKD">HKD</option>
+                                    <option value="HNL">HNL</option>
+                                    <option value="HRK">HRK</option>
+                                    <option value="HTG">HTG</option>
+                                    <option value="HUF">HUF</option>
+                                    <option value="IDR">IDR</option>
+                                    <option value="ILS">ILS</option>
+                                    <option value="IMP">IMP</option>
+                                    <option value="INR">INR</option>
+                                    <option value="IQD">IQD</option>
+                                    <option value="IRR">IRR</option>
+                                    <option value="ISK">ISK</option>
+                                    <option value="JEP">JEP</option>
+                                    <option value="JMD">JMD</option>
+                                    <option value="JOD">JOD</option>
+                                    <option value="JPY">JPY</option>
+                                    <option value="KES">KES</option>
+                                    <option value="KGS">KGS</option>
+                                    <option value="KHR">KHR</option>
+                                    <option value="KMF">KMF</option>
+                                    <option value="KPW">KPW</option>
+                                    <option value="KRW">KRW</option>
+                                    <option value="KWD">KWD</option>
+                                    <option value="KYD">KYD</option>
+                                    <option value="KZT">KZT</option>
+                                    <option value="LAK">LAK</option>
+                                    <option value="LBP">LBP</option>
+                                    <option value="LKR">LKR</option>
+                                    <option value="LRD">LRD</option>
+                                    <option value="LSL">LSL</option>
+                                    <option value="LTC">LTC</option>
+                                    <option value="LTL">LTL</option>
+                                    <option value="LVL">LVL</option>
+                                    <option value="LYD">LYD</option>
+                                    <option value="MAD">MAD</option>
+                                    <option value="MDL">MDL</option>
+                                    <option value="MGA">MGA</option>
+                                    <option value="MKD">MKD</option>
+                                    <option value="MMK">MMK</option>
+                                    <option value="MNT">MNT</option>
+                                    <option value="MOP">MOP</option>
+                                    <option value="MRO">MRO</option>
+                                    <option value="MRU">MRU</option>
+                                    <option value="MTL">MTL</option>
+                                    <option value="MUR">MUR</option>
+                                    <option value="MVR">MVR</option>
+                                    <option value="MWK">MWK</option>
+                                    <option value="MXN">MXN</option>
+                                    <option value="MYR">MYR</option>
+                                    <option value="MZN">MZN</option>
+                                    <option value="NAD">NAD</option>
+                                    <option value="NGN">NGN</option>
+                                    <option value="NIO">NIO</option>
+                                    <option value="NOK">NOK</option>
+                                    <option value="NPR">NPR</option>
+                                    <option value="NZD">NZD</option>
+                                    <option value="OMR">OMR</option>
+                                    <option value="PAB">PAB</option>
+                                    <option value="PEN">PEN</option>
+                                    <option value="PGK">PGK</option>
+                                    <option value="PHP">PHP</option>
+                                    <option value="PKR">PKR</option>
+                                    <option value="PLN">PLN</option>
+                                    <option value="PYG">PYG</option>
+                                    <option value="QAR">QAR</option>
+                                    <option value="RON">RON</option>
+                                    <option value="RSD">RSD</option>
+                                    <option value="RUB">RUB</option>
+                                    <option value="RWF">RWF</option>
+                                    <option value="SAR">SAR</option>
+                                    <option value="SBD">SBD</option>
+                                    <option value="SCR">SCR</option>
+                                    <option value="SDG">SDG</option>
+                                    <option value="SEK">SEK</option>
+                                    <option value="SGD">SGD</option>
+                                    <option value="SHP">SHP</option>
+                                    <option value="SLL">SLL</option>
+                                    <option value="SOS">SOS</option>
+                                    <option value="SRD">SRD</option>
+                                    <option value="SSP">SSP</option>
+                                    <option value="STD">STD</option>
+                                    <option value="STN">STN</option>
+                                    <option value="SVC">SVC</option>
+                                    <option value="SYP">SYP</option>
+                                    <option value="SZL">SZL</option>
+                                    <option value="THB">THB</option>
+                                    <option value="TJS">TJS</option>
+                                    <option value="TMT">TMT</option>
+                                    <option value="TND">TND</option>
+                                    <option value="TOP">TOP</option>
+                                    <option value="TRY">TRY</option>
+                                    <option value="TTD">TTD</option>
+                                    <option value="TWD">TWD</option>
+                                    <option value="TZS">TZS</option>
+                                    <option value="UAH">UAH</option>
+                                    <option value="UGX">UGX</option>
+                                    <option value="USD">USD</option>
+                                    <option value="UYU">UYU</option>
+                                    <option value="UZS">UZS</option>
+                                    <option value="VES" selected>VES</option>     
+                                    <option value="VND">VND</option>
+                                    <option value="VUV">VUV</option>
+                                    <option value="WST">WST</option>
+                                    <option value="XAF">XAF</option>
+                                    <option value="XAG">XAG</option>
+                                    <option value="XAR">XAR</option>
+                                    <option value="XAU">XAU</option>
+                                    <option value="XCD">XCD</option>
+                                    <option value="XDR">XDR</option>
+                                    <option value="XMR">XMR</option>
+                                    <option value="XOF">XOF</option>
+                                    <option value="XPD">XPD</option>
+                                    <option value="XPF">XPF</option>
+                                    <option value="XPT">XPT</option>
+                                    <option value="XRP">XRP</option>
+                                    <option value="YER">YER</option>
+                                    <option value="ZAR">ZAR</option>
+                                    <option value="ZMK">ZMK</option>
+                                    <option value="ZMW">ZMW</option>
+                                    <option value="ZWL">ZWL</option>                                
+                                </select>
+                                <select name="cars" class="custom-select mb-3">
+                                    <option value="Afganistán">Afganistán</option>
+                                    <option value="Albania">Albania</option>
+                                    <option value="Alemania">Alemania</option>
+                                    <option value="Andorra">Andorra</option>
+                                    <option value="Angola">Angola</option>
+                                    <option value="Antigua y Barbuda">Antigua y Barbuda</option>
+                                    <option value="Arabia Saudita">Arabia Saudita</option>
+                                    <option value="Argelia">Argelia</option>
+                                    <option value="Argentina">Argentina</option>
+                                    <option value="Armenia">Armenia</option>
+                                    <option value="Australia">Australia</option>
+                                    <option value="Austria">Austria</option>
+                                    <option value="Azerbaiyán">Azerbaiyán</option>
+                                    <option value="Bahamas">Bahamas</option>
+                                    <option value="Bangladés">Bangladés</option>
+                                    <option value="Barbados">Barbados</option>
+                                    <option value="Baréin">Baréin</option>
+                                    <option value="Bélgica">Bélgica</option>
+                                    <option value="Belice">Belice</option>
+                                    <option value="Benín">Benín</option>
+                                    <option value="Bielorrusia">Bielorrusia</option>
+                                    <option value="Birmania">Birmania</option>
+                                    <option value="Bolivia">Bolivia</option>
+                                    <option value="Bosnia y Herzegovina">Bosnia y Herzegovina</option>
+                                    <option value="Botsuana">Botsuana</option>
+                                    <option value="Brasil">Brasil</option>
+                                    <option value="Brunéi">Brunéi</option>
+                                    <option value="Bulgaria">Bulgaria</option>
+                                    <option value="Burkina Faso">Burkina Faso</option>
+                                    <option value="Burundi">Burundi</option>
+                                    <option value="Bután">Bután</option>
+                                    <option value="Cabo Verde">Cabo Verde</option>
+                                    <option value="Camboya">Camboya</option>
+                                    <option value="Camerún">Camerún</option>
+                                    <option value="Canadá">Canadá</option>
+                                    <option value="Catar">Catar</option>
+                                    <option value="Chad">Chad</option>
+                                    <option value="Chile">Chile</option>
+                                    <option value="China">China</option>
+                                    <option value="Chipre">Chipre</option>
+                                    <option value="Ciudad del Vaticano">Ciudad del Vaticano</option>
+                                    <option value="Colombia">Colombia</option>
+                                    <option value="Comoras">Comoras</option>
+                                    <option value="Corea del Norte">Corea del Norte</option>
+                                    <option value="Corea del Sur">Corea del Sur</option>
+                                    <option value="Costa de Marfil">Costa de Marfil</option>
+                                    <option value="Costa Rica">Costa Rica</option>
+                                    <option value="Croacia">Croacia</option>
+                                    <option value="Cuba">Cuba</option>
+                                    <option value="Dinamarca">Dinamarca</option>
+                                    <option value="Dominica">Dominica</option>
+                                    <option value="Ecuador">Ecuador</option>
+                                    <option value="Egipto">Egipto</option>
+                                    <option value="El Salvador">El Salvador</option>
+                                    <option value="Emiratos Árabes Unidos">Emiratos Árabes Unidos</option>
+                                    <option value="Eritrea">Eritrea</option>
+                                    <option value="Eslovaquia">Eslovaquia</option>
+                                    <option value="Eslovenia">Eslovenia</option>
+                                    <option value="España">España</option>
+                                    <option value="Estados Unidos">Estados Unidos</option>
+                                    <option value="Estonia">Estonia</option>
+                                    <option value="Etiopía">Etiopía</option>
+                                    <option value="Filipinas">Filipinas</option>
+                                    <option value="Finlandia">Finlandia</option>
+                                    <option value="Fiyi">Fiyi</option>
+                                    <option value="Francia">Francia</option>
+                                    <option value="Gabón">Gabón</option>
+                                    <option value="Gambia">Gambia</option>
+                                    <option value="Georgia">Georgia</option>
+                                    <option value="Ghana">Ghana</option>
+                                    <option value="Granada">Granada</option>
+                                    <option value="Grecia">Grecia</option>
+                                    <option value="Guatemala">Guatemala</option>
+                                    <option value="Guyana">Guyana</option>
+                                    <option value="Guinea">Guinea</option>
+                                    <option value="Guinea-Bisáu">Guinea-Bisáu</option>
+                                    <option value="Guinea Ecuatorial">Guinea Ecuatorial</option>
+                                    <option value="Haití">Haití</option>
+                                    <option value="Honduras">Honduras</option>
+                                    <option value="Hungría">Hungría</option>
+                                    <option value="India">India</option>
+                                    <option value="Indonesia">Indonesia</option>
+                                    <option value="Irak">Irak</option>
+                                    <option value="Irán">Irán</option>
+                                    <option value="Irlanda">Irlanda</option>
+                                    <option value="Islandia">Islandia</option>
+                                    <option value="Islas Marshall">Islas Marshall</option>
+                                    <option value="Islas Salomón">Islas Salomón</option>
+                                    <option value="Israel">Israel</option>
+                                    <option value="Italia">Italia</option>
+                                    <option value="Jamaica">Jamaica</option>
+                                    <option value="Japón">Japón</option>
+                                    <option value="Jordania">Jordania</option>
+                                    <option value="Kazajistán">Kazajistán</option>
+                                    <option value="Kenia">Kenia</option>
+                                    <option value="Kirguistán">Kirguistán</option>
+                                    <option value="Kiribati">Kiribati</option>
+                                    <option value="Kuwait">Kuwait</option>
+                                    <option value="Laos">Laos</option>
+                                    <option value="Lesoto">Lesoto</option>
+                                    <option value="Letonia">Letonia</option>
+                                    <option value="Líbano">Líbano</option>
+                                    <option value="Liberia">Liberia</option>
+                                    <option value="Libia">Libia</option>
+                                    <option value="Liechtenstein">Liechtenstein</option>
+                                    <option value="Lituania">Lituania</option>
+                                    <option value="Luxemburgo">Luxemburgo</option>
+                                    <option value="Madagascar">Madagascar</option>
+                                    <option value="Malasia">Malasia</option>
+                                    <option value="Malaui">Malaui</option>
+                                    <option value="Maldivas">Maldivas</option>
+                                    <option value="Malí">Malí</option>
+                                    <option value="Malta">Malta</option>
+                                    <option value="Marruecos">Marruecos</option>
+                                    <option value="Mauricio">Mauricio</option>
+                                    <option value="Mauritania">Mauritania</option>
+                                    <option value="México">México</option>
+                                    <option value="Micronesia">Micronesia</option>
+                                    <option value="Moldavia">Moldavia</option>
+                                    <option value="Mónaco">Mónaco</option>
+                                    <option value="Mongolia">Mongolia</option>
+                                    <option value="Montenegro">Montenegro</option>
+                                    <option value="Mozambique">Mozambique</option>
+                                    <option value="Namibia">Namibia</option>
+                                    <option value="Nauru">Nauru</option>
+                                    <option value="Nepal">Nepal</option>
+                                    <option value="Nicaragua">Nicaragua</option>
+                                    <option value="Níger">Níger</option>
+                                    <option value="Nigeria">Nigeria</option>
+                                    <option value="Noruega">Noruega</option>
+                                    <option value="Nueva Zelanda">Nueva Zelanda</option>
+                                    <option value="Omán">Omán</option>
+                                    <option value="Países Bajos">Países Bajos</option>
+                                    <option value="Pakistán">Pakistán</option>
+                                    <option value="Palaos">Palaos</option>
+                                    <option value="Panamá">Panamá</option>
+                                    <option value="Papúa Nueva Guinea">Papúa Nueva Guinea</option>
+                                    <option value="Paraguay">Paraguay</option>
+                                    <option value="Perú">Perú</option>
+                                    <option value="Polonia">Polonia</option>
+                                    <option value="Portugal">Portugal</option>
+                                    <option value="Reino Unido de Gran Bretaña e Irlanda del Norte">Reino Unido de Gran Bretaña e Irlanda del Norte</option>
+                                    <option value="República Centroafricana">República Centroafricana</option>
+                                    <option value="República Checa">República Checa</option>
+                                    <option value="República de Macedonia">República de Macedonia</option>
+                                    <option value="República del Congo">República del Congo</option>
+                                    <option value="República Democrática del Congo">República Democrática del Congo</option>
+                                    <option value="República Dominicana">República Dominicana</option>
+                                    <option value="República Sudafricana">República Sudafricana</option>
+                                    <option value="Ruanda">Ruanda</option>
+                                    <option value="Rumanía">Rumanía</option>
+                                    <option value="Rusia">Rusia</option>
+                                    <option value="Samoa">Samoa</option>
+                                    <option value="San Cristóbal y Nieves">San Cristóbal y Nieves</option>
+                                    <option value="San Marino">San Marino</option>
+                                    <option value="San Vicente y las Granadinas">San Vicente y las Granadinas</option>
+                                    <option value="Santa Lucía">Santa Lucía</option>
+                                    <option value="Santo Tomé y Príncipe">Santo Tomé y Príncipe</option>
+                                    <option value="Senegal">Senegal</option>
+                                    <option value="Serbia">Serbia</option>
+                                    <option value="Seychelles">Seychelles</option>
+                                    <option value="Sierra Leona">Sierra Leona</option>
+                                    <option value="Singapur">Singapur</option>
+                                    <option value="Siria">Siria</option>
+                                    <option value="Somalia">Somalia</option>
+                                    <option value="Sri Lanka">Sri Lanka</option>
+                                    <option value="Suazilandia">Suazilandia</option>
+                                    <option value="Sudán">Sudán</option>
+                                    <option value="Sudán del Sur">Sudán del Sur</option>
+                                    <option value="Suecia">Suecia</option>
+                                    <option value="Suiza">Suiza</option>
+                                    <option value="Surinam">Surinam</option>
+                                    <option value="Tailandia">Tailandia</option>
+                                    <option value="Tanzania">Tanzania</option>
+                                    <option value="Tayikistán">Tayikistán</option>
+                                    <option value="Timor Oriental">Timor Oriental</option>
+                                    <option value="Togo">Togo</option>
+                                    <option value="Tonga">Tonga</option>
+                                    <option value="Trinidad y Tobago">Trinidad y Tobago</option>
+                                    <option value="Túnez">Túnez</option>
+                                    <option value="Turkmenistán">Turkmenistán</option>
+                                    <option value="Turquía">Turquía</option>
+                                    <option value="Tuvalu">Tuvalu</option>
+                                    <option value="Ucrania">Ucrania</option>
+                                    <option value="Uganda">Uganda</option>
+                                    <option value="Uruguay">Uruguay</option>
+                                    <option value="Uzbekistán">Uzbekistán</option>
+                                    <option value="Vanuatu">Vanuatu</option>
+                                    <option value="Venezuela" selected>Venezuela</option>
+                                    <option value="Vietnam">Vietnam</option>
+                                    <option value="Yemen">Yemen</option>
+                                    <option value="Yibuti">Yibuti</option>
+                                    <option value="Zambia">Zambia</option>
+                                    <option value="Zimbabue">Zimbabue</option>
+                                </select>
+                                <select name="cars" class="custom-select mb-3">
+                                    <optgroup label="Popular in your country">
+                                        <option value="National bank transfer">National bank transfer</option>
+                                        <option value="Transfers with specific bank">Transfers with specific bank</option>
+                                    </optgroup>
+                                    <optgroup label="All payment methods">
+                                        <option value="Cash by mail">Cash by mail</option>
+                                        <option value="Cash deposit">Cash deposit</option>
+                                        <option value="Moneybookers / Skrill">Moneybookers / Skrill</option>
+                                        <option value="Moneygram">Moneygram</option>
+                                        <option value="Neteller">Neteller</option>
+                                        <option value="Other online payment">Other online payment</option>
+                                        <option value="Paypal">Paypal</option>
+                                        <option value="Transfers with specific bank">Transfers with specific bank</option>
+                                        <option value="WebMoney">WebMoney</option>
+                                        <option value="All online offers" selected>All online offers</option>
+                                        <option value="Advcash">Advcash</option>
+                                        <option value="CashU">CashU</option>
+                                        <option value="Credit card">Credit card</option>
+                                        <option value="EGOPAY">EGOPAY</option>
+                                        <option value="Gift Card Code (Global)">Gift Card Code (Global)</option>
+                                        <option value="International Wire (SWIFT)">International Wire (SWIFT)</option>
+                                        <option value="Moneybookers / Skrill">Moneybookers / Skrill</option>
+                                        <option value="Moneygram">Moneygram</option>
+                                        <option value="Neteller">Neteller</option>
+                                        <option value="OKPay">OKPay</option>
+                                        <option value="OneCard">OneCard</option>
+                                        <option value="Paxum">Paxum</option>
+                                        <option value="Payeer">Payeer</option>
+                                        <option value="Payoneer">Payoneer</option>
+                                        <option value="Paypal">Paypal</option>
+                                        <option value="Payza">Payza</option>
+                                        <option value="Perfect Money">Perfect Money</option>
+                                        <option value="RIA Money Transfer">RIA Money Transfer</option>
+                                        <option value="SolidTrustPay">SolidTrustPay</option>
+                                        <option value="Transfers with specific bank">Transfers with specific bank</option>
+                                        <option value="Transferwise">Transferwise</option>
+                                        <option value="WebMoney">WebMoney</option>
+                                        <option value="WeChat">WeChat</option>
+                                        <option value="Worldremit">Worldremit</option>
+                                        <option value="Western Union">Western Union</option>
+                                    </optgroup>         
+                                    <optgroup label="Altcoin">
+                                        <option value="Dash altcoin">Dash altcoin</option>
+                                        <option value="Ripple altcoin">Ripple altcoin</option>
+                                        <option value="Litecoin altcoin">Litecoin altcoin</option>
+                                        <option value="Monero altcoin">Monero altcoin</option>
+                                        <option value="Ethereum altcoin">Ethereum altcoin</option>
+                                    </optgroup>
+                                    <optgroup label="In-person">
+                                        <option value="Cash">Cash</option>
+                                    </optgroup> 
+                                </select>
+                                <button type="submit" class="btn-blue btn">Buscar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div id="vender" class="tab-pane" >
+                    <!--<img src="img/construccion.png" width="80%" class="img-construccion">-->
+                    <div class="pri-content-comprar">
+                        <div class="content-comprar mt-3">
+                            <form action="/action_page.php">
+                                <div class="input-group mb-3 w10">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">Cantidad</span>
+                                    </div>
+                                    <input type="text" class="form-control">
+                                </div>                                  
+                                <select name="cars" class="custom-select mb-3">
+                                    <!--<option selected>Custom Select Menu</option>-->
+                                    <option value="AED">AED</option>
+                                    <option value="AFN">AFN</option>
+                                    <option value="ALL">ALL</option>
+                                    <option value="AMD">AMD</option>
+                                    <option value="ANG">ANG</option>
+                                    <option value="AOA">AOA</option>
+                                    <option value="ARS">ARS</option>
+                                    <option value="AUD">AUD</option>
+                                    <option value="AWG">AWG</option>
+                                    <option value="AZN">AZN</option>
+                                    <option value="BAM">BAM</option>
+                                    <option value="BBD">BBD</option>
+                                    <option value="BDT">BDT</option>
+                                    <option value="BGN">BGN</option>
+                                    <option value="BHD">BHD</option>
+                                    <option value="BIT">BIF</option>
+                                    <option value="BMD">BMD</option>
+                                    <option value="BND">BND</option>
+                                    <option value="BOB">BOB</option>
+                                    <option value="BRL">BRL</option>
+                                    <option value="BSD">BSD</option>
+                                    <option value="BTN">BTN</option>
+                                    <option value="BWP">BWP</option>
+                                    <option value="BYR">BYR</option>
+                                    <option value="BZD">BZD</option>
+                                    <option value="CAD">CAD</option>
+                                    <option value="CDF">CDF</option>
+                                    <option value="CHF">CHF</option>
+                                    <option value="CLF">CLF</option>
+                                    <option value="CLP">CLP</option>
+                                    <option value="CNH">CNH</option>
+                                    <option value="CNY">CNY</option>
+                                    <option value="COP">COP</option>
+                                    <option value="CRC">CRC</option>
+                                    <option value="CUC">CUC</option>
+                                    <option value="COP">COP</option>
+                                    <option value="CVE">CVE</option>
+                                    <option value="CZK">CZK</option>
+                                    <option value="DASH">DASH</option>
+                                    <option value="DJF">DJF</option>
+                                    <option value="DKK">DKK</option>
+                                    <option value="DOP">DOP</option>
+                                    <option value="DZD">DZD</option>
+                                    <option value="EEK">EEK</option>
+                                    <option value="EGP">EGP</option>
+                                    <option value="ERN">ERN</option>
+                                    <option value="ETB">ETB</option>
+                                    <option value="ETH">ETH</option>
+                                    <option value="EUR">EUR</option>
+                                    <option value="FJD">FJD</option>
+                                    <option value="FKP">FKP</option>
+                                    <option value="GBP">GBP</option>
+                                    <option value="GEL">GEL</option>
+                                    <option value="GGP">GGP</option>
+                                    <option value="GHS">GHS</option>
+                                    <option value="GIP">GIP</option>
+                                    <option value="GMD">GMD</option>
+                                    <option value="GNF">GNF</option>
+                                    <option value="GTQ">GTQ</option>
+                                    <option value="GYD">GYD</option>
+                                    <option value="HKD">HKD</option>
+                                    <option value="HNL">HNL</option>
+                                    <option value="HRK">HRK</option>
+                                    <option value="HTG">HTG</option>
+                                    <option value="HUF">HUF</option>
+                                    <option value="IDR">IDR</option>
+                                    <option value="ILS">ILS</option>
+                                    <option value="IMP">IMP</option>
+                                    <option value="INR">INR</option>
+                                    <option value="IQD">IQD</option>
+                                    <option value="IRR">IRR</option>
+                                    <option value="ISK">ISK</option>
+                                    <option value="JEP">JEP</option>
+                                    <option value="JMD">JMD</option>
+                                    <option value="JOD">JOD</option>
+                                    <option value="JPY">JPY</option>
+                                    <option value="KES">KES</option>
+                                    <option value="KGS">KGS</option>
+                                    <option value="KHR">KHR</option>
+                                    <option value="KMF">KMF</option>
+                                    <option value="KPW">KPW</option>
+                                    <option value="KRW">KRW</option>
+                                    <option value="KWD">KWD</option>
+                                    <option value="KYD">KYD</option>
+                                    <option value="KZT">KZT</option>
+                                    <option value="LAK">LAK</option>
+                                    <option value="LBP">LBP</option>
+                                    <option value="LKR">LKR</option>
+                                    <option value="LRD">LRD</option>
+                                    <option value="LSL">LSL</option>
+                                    <option value="LTC">LTC</option>
+                                    <option value="LTL">LTL</option>
+                                    <option value="LVL">LVL</option>
+                                    <option value="LYD">LYD</option>
+                                    <option value="MAD">MAD</option>
+                                    <option value="MDL">MDL</option>
+                                    <option value="MGA">MGA</option>
+                                    <option value="MKD">MKD</option>
+                                    <option value="MMK">MMK</option>
+                                    <option value="MNT">MNT</option>
+                                    <option value="MOP">MOP</option>
+                                    <option value="MRO">MRO</option>
+                                    <option value="MRU">MRU</option>
+                                    <option value="MTL">MTL</option>
+                                    <option value="MUR">MUR</option>
+                                    <option value="MVR">MVR</option>
+                                    <option value="MWK">MWK</option>
+                                    <option value="MXN">MXN</option>
+                                    <option value="MYR">MYR</option>
+                                    <option value="MZN">MZN</option>
+                                    <option value="NAD">NAD</option>
+                                    <option value="NGN">NGN</option>
+                                    <option value="NIO">NIO</option>
+                                    <option value="NOK">NOK</option>
+                                    <option value="NPR">NPR</option>
+                                    <option value="NZD">NZD</option>
+                                    <option value="OMR">OMR</option>
+                                    <option value="PAB">PAB</option>
+                                    <option value="PEN">PEN</option>
+                                    <option value="PGK">PGK</option>
+                                    <option value="PHP">PHP</option>
+                                    <option value="PKR">PKR</option>
+                                    <option value="PLN">PLN</option>
+                                    <option value="PYG">PYG</option>
+                                    <option value="QAR">QAR</option>
+                                    <option value="RON">RON</option>
+                                    <option value="RSD">RSD</option>
+                                    <option value="RUB">RUB</option>
+                                    <option value="RWF">RWF</option>
+                                    <option value="SAR">SAR</option>
+                                    <option value="SBD">SBD</option>
+                                    <option value="SCR">SCR</option>
+                                    <option value="SDG">SDG</option>
+                                    <option value="SEK">SEK</option>
+                                    <option value="SGD">SGD</option>
+                                    <option value="SHP">SHP</option>
+                                    <option value="SLL">SLL</option>
+                                    <option value="SOS">SOS</option>
+                                    <option value="SRD">SRD</option>
+                                    <option value="SSP">SSP</option>
+                                    <option value="STD">STD</option>
+                                    <option value="STN">STN</option>
+                                    <option value="SVC">SVC</option>
+                                    <option value="SYP">SYP</option>
+                                    <option value="SZL">SZL</option>
+                                    <option value="THB">THB</option>
+                                    <option value="TJS">TJS</option>
+                                    <option value="TMT">TMT</option>
+                                    <option value="TND">TND</option>
+                                    <option value="TOP">TOP</option>
+                                    <option value="TRY">TRY</option>
+                                    <option value="TTD">TTD</option>
+                                    <option value="TWD">TWD</option>
+                                    <option value="TZS">TZS</option>
+                                    <option value="UAH">UAH</option>
+                                    <option value="UGX">UGX</option>
+                                    <option value="USD">USD</option>
+                                    <option value="UYU">UYU</option>
+                                    <option value="UZS">UZS</option>
+                                    <option value="VES" selected>VES</option>     
+                                    <option value="VND">VND</option>
+                                    <option value="VUV">VUV</option>
+                                    <option value="WST">WST</option>
+                                    <option value="XAF">XAF</option>
+                                    <option value="XAG">XAG</option>
+                                    <option value="XAR">XAR</option>
+                                    <option value="XAU">XAU</option>
+                                    <option value="XCD">XCD</option>
+                                    <option value="XDR">XDR</option>
+                                    <option value="XMR">XMR</option>
+                                    <option value="XOF">XOF</option>
+                                    <option value="XPD">XPD</option>
+                                    <option value="XPF">XPF</option>
+                                    <option value="XPT">XPT</option>
+                                    <option value="XRP">XRP</option>
+                                    <option value="YER">YER</option>
+                                    <option value="ZAR">ZAR</option>
+                                    <option value="ZMK">ZMK</option>
+                                    <option value="ZMW">ZMW</option>
+                                    <option value="ZWL">ZWL</option>                                 
+                                </select>
+                                <select name="cars" class="custom-select mb-3">
+                                    <option value="Afganistán">Afganistán</option>
+                                    <option value="Albania">Albania</option>
+                                    <option value="Alemania">Alemania</option>
+                                    <option value="Andorra">Andorra</option>
+                                    <option value="Angola">Angola</option>
+                                    <option value="Antigua y Barbuda">Antigua y Barbuda</option>
+                                    <option value="Arabia Saudita">Arabia Saudita</option>
+                                    <option value="Argelia">Argelia</option>
+                                    <option value="Argentina">Argentina</option>
+                                    <option value="Armenia">Armenia</option>
+                                    <option value="Australia">Australia</option>
+                                    <option value="Austria">Austria</option>
+                                    <option value="Azerbaiyán">Azerbaiyán</option>
+                                    <option value="Bahamas">Bahamas</option>
+                                    <option value="Bangladés">Bangladés</option>
+                                    <option value="Barbados">Barbados</option>
+                                    <option value="Baréin">Baréin</option>
+                                    <option value="Bélgica">Bélgica</option>
+                                    <option value="Belice">Belice</option>
+                                    <option value="Benín">Benín</option>
+                                    <option value="Bielorrusia">Bielorrusia</option>
+                                    <option value="Birmania">Birmania</option>
+                                    <option value="Bolivia">Bolivia</option>
+                                    <option value="Bosnia y Herzegovina">Bosnia y Herzegovina</option>
+                                    <option value="Botsuana">Botsuana</option>
+                                    <option value="Brasil">Brasil</option>
+                                    <option value="Brunéi">Brunéi</option>
+                                    <option value="Bulgaria">Bulgaria</option>
+                                    <option value="Burkina Faso">Burkina Faso</option>
+                                    <option value="Burundi">Burundi</option>
+                                    <option value="Bután">Bután</option>
+                                    <option value="Cabo Verde">Cabo Verde</option>
+                                    <option value="Camboya">Camboya</option>
+                                    <option value="Camerún">Camerún</option>
+                                    <option value="Canadá">Canadá</option>
+                                    <option value="Catar">Catar</option>
+                                    <option value="Chad">Chad</option>
+                                    <option value="Chile">Chile</option>
+                                    <option value="China">China</option>
+                                    <option value="Chipre">Chipre</option>
+                                    <option value="Ciudad del Vaticano">Ciudad del Vaticano</option>
+                                    <option value="Colombia">Colombia</option>
+                                    <option value="Comoras">Comoras</option>
+                                    <option value="Corea del Norte">Corea del Norte</option>
+                                    <option value="Corea del Sur">Corea del Sur</option>
+                                    <option value="Costa de Marfil">Costa de Marfil</option>
+                                    <option value="Costa Rica">Costa Rica</option>
+                                    <option value="Croacia">Croacia</option>
+                                    <option value="Cuba">Cuba</option>
+                                    <option value="Dinamarca">Dinamarca</option>
+                                    <option value="Dominica">Dominica</option>
+                                    <option value="Ecuador">Ecuador</option>
+                                    <option value="Egipto">Egipto</option>
+                                    <option value="El Salvador">El Salvador</option>
+                                    <option value="Emiratos Árabes Unidos">Emiratos Árabes Unidos</option>
+                                    <option value="Eritrea">Eritrea</option>
+                                    <option value="Eslovaquia">Eslovaquia</option>
+                                    <option value="Eslovenia">Eslovenia</option>
+                                    <option value="España">España</option>
+                                    <option value="Estados Unidos">Estados Unidos</option>
+                                    <option value="Estonia">Estonia</option>
+                                    <option value="Etiopía">Etiopía</option>
+                                    <option value="Filipinas">Filipinas</option>
+                                    <option value="Finlandia">Finlandia</option>
+                                    <option value="Fiyi">Fiyi</option>
+                                    <option value="Francia">Francia</option>
+                                    <option value="Gabón">Gabón</option>
+                                    <option value="Gambia">Gambia</option>
+                                    <option value="Georgia">Georgia</option>
+                                    <option value="Ghana">Ghana</option>
+                                    <option value="Granada">Granada</option>
+                                    <option value="Grecia">Grecia</option>
+                                    <option value="Guatemala">Guatemala</option>
+                                    <option value="Guyana">Guyana</option>
+                                    <option value="Guinea">Guinea</option>
+                                    <option value="Guinea-Bisáu">Guinea-Bisáu</option>
+                                    <option value="Guinea Ecuatorial">Guinea Ecuatorial</option>
+                                    <option value="Haití">Haití</option>
+                                    <option value="Honduras">Honduras</option>
+                                    <option value="Hungría">Hungría</option>
+                                    <option value="India">India</option>
+                                    <option value="Indonesia">Indonesia</option>
+                                    <option value="Irak">Irak</option>
+                                    <option value="Irán">Irán</option>
+                                    <option value="Irlanda">Irlanda</option>
+                                    <option value="Islandia">Islandia</option>
+                                    <option value="Islas Marshall">Islas Marshall</option>
+                                    <option value="Islas Salomón">Islas Salomón</option>
+                                    <option value="Israel">Israel</option>
+                                    <option value="Italia">Italia</option>
+                                    <option value="Jamaica">Jamaica</option>
+                                    <option value="Japón">Japón</option>
+                                    <option value="Jordania">Jordania</option>
+                                    <option value="Kazajistán">Kazajistán</option>
+                                    <option value="Kenia">Kenia</option>
+                                    <option value="Kirguistán">Kirguistán</option>
+                                    <option value="Kiribati">Kiribati</option>
+                                    <option value="Kuwait">Kuwait</option>
+                                    <option value="Laos">Laos</option>
+                                    <option value="Lesoto">Lesoto</option>
+                                    <option value="Letonia">Letonia</option>
+                                    <option value="Líbano">Líbano</option>
+                                    <option value="Liberia">Liberia</option>
+                                    <option value="Libia">Libia</option>
+                                    <option value="Liechtenstein">Liechtenstein</option>
+                                    <option value="Lituania">Lituania</option>
+                                    <option value="Luxemburgo">Luxemburgo</option>
+                                    <option value="Madagascar">Madagascar</option>
+                                    <option value="Malasia">Malasia</option>
+                                    <option value="Malaui">Malaui</option>
+                                    <option value="Maldivas">Maldivas</option>
+                                    <option value="Malí">Malí</option>
+                                    <option value="Malta">Malta</option>
+                                    <option value="Marruecos">Marruecos</option>
+                                    <option value="Mauricio">Mauricio</option>
+                                    <option value="Mauritania">Mauritania</option>
+                                    <option value="México">México</option>
+                                    <option value="Micronesia">Micronesia</option>
+                                    <option value="Moldavia">Moldavia</option>
+                                    <option value="Mónaco">Mónaco</option>
+                                    <option value="Mongolia">Mongolia</option>
+                                    <option value="Montenegro">Montenegro</option>
+                                    <option value="Mozambique">Mozambique</option>
+                                    <option value="Namibia">Namibia</option>
+                                    <option value="Nauru">Nauru</option>
+                                    <option value="Nepal">Nepal</option>
+                                    <option value="Nicaragua">Nicaragua</option>
+                                    <option value="Níger">Níger</option>
+                                    <option value="Nigeria">Nigeria</option>
+                                    <option value="Noruega">Noruega</option>
+                                    <option value="Nueva Zelanda">Nueva Zelanda</option>
+                                    <option value="Omán">Omán</option>
+                                    <option value="Países Bajos">Países Bajos</option>
+                                    <option value="Pakistán">Pakistán</option>
+                                    <option value="Palaos">Palaos</option>
+                                    <option value="Panamá">Panamá</option>
+                                    <option value="Papúa Nueva Guinea">Papúa Nueva Guinea</option>
+                                    <option value="Paraguay">Paraguay</option>
+                                    <option value="Perú">Perú</option>
+                                    <option value="Polonia">Polonia</option>
+                                    <option value="Portugal">Portugal</option>
+                                    <option value="Reino Unido de Gran Bretaña e Irlanda del Norte">Reino Unido de Gran Bretaña e Irlanda del Norte</option>
+                                    <option value="República Centroafricana">República Centroafricana</option>
+                                    <option value="República Checa">República Checa</option>
+                                    <option value="República de Macedonia">República de Macedonia</option>
+                                    <option value="República del Congo">República del Congo</option>
+                                    <option value="República Democrática del Congo">República Democrática del Congo</option>
+                                    <option value="República Dominicana">República Dominicana</option>
+                                    <option value="República Sudafricana">República Sudafricana</option>
+                                    <option value="Ruanda">Ruanda</option>
+                                    <option value="Rumanía">Rumanía</option>
+                                    <option value="Rusia">Rusia</option>
+                                    <option value="Samoa">Samoa</option>
+                                    <option value="San Cristóbal y Nieves">San Cristóbal y Nieves</option>
+                                    <option value="San Marino">San Marino</option>
+                                    <option value="San Vicente y las Granadinas">San Vicente y las Granadinas</option>
+                                    <option value="Santa Lucía">Santa Lucía</option>
+                                    <option value="Santo Tomé y Príncipe">Santo Tomé y Príncipe</option>
+                                    <option value="Senegal">Senegal</option>
+                                    <option value="Serbia">Serbia</option>
+                                    <option value="Seychelles">Seychelles</option>
+                                    <option value="Sierra Leona">Sierra Leona</option>
+                                    <option value="Singapur">Singapur</option>
+                                    <option value="Siria">Siria</option>
+                                    <option value="Somalia">Somalia</option>
+                                    <option value="Sri Lanka">Sri Lanka</option>
+                                    <option value="Suazilandia">Suazilandia</option>
+                                    <option value="Sudán">Sudán</option>
+                                    <option value="Sudán del Sur">Sudán del Sur</option>
+                                    <option value="Suecia">Suecia</option>
+                                    <option value="Suiza">Suiza</option>
+                                    <option value="Surinam">Surinam</option>
+                                    <option value="Tailandia">Tailandia</option>
+                                    <option value="Tanzania">Tanzania</option>
+                                    <option value="Tayikistán">Tayikistán</option>
+                                    <option value="Timor Oriental">Timor Oriental</option>
+                                    <option value="Togo">Togo</option>
+                                    <option value="Tonga">Tonga</option>
+                                    <option value="Trinidad y Tobago">Trinidad y Tobago</option>
+                                    <option value="Túnez">Túnez</option>
+                                    <option value="Turkmenistán">Turkmenistán</option>
+                                    <option value="Turquía">Turquía</option>
+                                    <option value="Tuvalu">Tuvalu</option>
+                                    <option value="Ucrania">Ucrania</option>
+                                    <option value="Uganda">Uganda</option>
+                                    <option value="Uruguay">Uruguay</option>
+                                    <option value="Uzbekistán">Uzbekistán</option>
+                                    <option value="Vanuatu">Vanuatu</option>
+                                    <option value="Venezuela" selected>Venezuela</option>
+                                    <option value="Vietnam">Vietnam</option>
+                                    <option value="Yemen">Yemen</option>
+                                    <option value="Yibuti">Yibuti</option>
+                                    <option value="Zambia">Zambia</option>
+                                    <option value="Zimbabue">Zimbabue</option>
+                                </select>
+                                <select name="cars" class="custom-select mb-3">
+                                    <optgroup label="Popular in your country">
+                                        <option value="National bank transfer">National bank transfer</option>
+                                        <option value="Transfers with specific bank">Transfers with specific bank</option>
+                                    </optgroup>
+                                    <optgroup label="All payment methods">
+                                        <option value="Cash by mail">Cash by mail</option>
+                                        <option value="Cash deposit">Cash deposit</option>
+                                        <option value="Moneybookers / Skrill">Moneybookers / Skrill</option>
+                                        <option value="Moneygram">Moneygram</option>
+                                        <option value="Neteller">Neteller</option>
+                                        <option value="Other online payment">Other online payment</option>
+                                        <option value="Paypal">Paypal</option>
+                                        <option value="Transfers with specific bank">Transfers with specific bank</option>
+                                        <option value="WebMoney">WebMoney</option>
+                                        <option value="All online offers" selected>All online offers</option>
+                                        <option value="Advcash">Advcash</option>
+                                        <option value="CashU">CashU</option>
+                                        <option value="Credit card">Credit card</option>
+                                        <option value="EGOPAY">EGOPAY</option>
+                                        <option value="Gift Card Code (Global)">Gift Card Code (Global)</option>
+                                        <option value="International Wire (SWIFT)">International Wire (SWIFT)</option>
+                                        <option value="Moneybookers / Skrill">Moneybookers / Skrill</option>
+                                        <option value="Moneygram">Moneygram</option>
+                                        <option value="Neteller">Neteller</option>
+                                        <option value="OKPay">OKPay</option>
+                                        <option value="OneCard">OneCard</option>
+                                        <option value="Paxum">Paxum</option>
+                                        <option value="Payeer">Payeer</option>
+                                        <option value="Payoneer">Payoneer</option>
+                                        <option value="Paypal">Paypal</option>
+                                        <option value="Payza">Payza</option>
+                                        <option value="Perfect Money">Perfect Money</option>
+                                        <option value="RIA Money Transfer">RIA Money Transfer</option>
+                                        <option value="SolidTrustPay">SolidTrustPay</option>
+                                        <option value="Transfers with specific bank">Transfers with specific bank</option>
+                                        <option value="Transferwise">Transferwise</option>
+                                        <option value="WebMoney">WebMoney</option>
+                                        <option value="WeChat">WeChat</option>
+                                        <option value="Worldremit">Worldremit</option>
+                                        <option value="Western Union">Western Union</option>
+                                    </optgroup>         
+                                    <optgroup label="Altcoin">
+                                        <option value="Dash altcoin">Dash altcoin</option>
+                                        <option value="Ripple altcoin">Ripple altcoin</option>
+                                        <option value="Litecoin altcoin">Litecoin altcoin</option>
+                                        <option value="Monero altcoin">Monero altcoin</option>
+                                        <option value="Ethereum altcoin">Ethereum altcoin</option>
+                                    </optgroup>
+                                    <optgroup label="In-person">
+                                        <option value="Cash">Cash</option>
+                                    </optgroup> 
+                                </select>
+                                <button type="submit" class="btn-blue btn">Buscar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div id="intercambiar" class="tab-pane" >
+                    <img src="img/construccion.png" width="80%" class="img-construccion">
+                </div>
+            </div>
+        </div>
+        <div id="cuenta" class="tab-pane">
+            <!--<img src="img/construccion.png" width="80%" class="img-construccion">-->
+            <div class="pri-content-cuenta">
+                <div class="">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                          <a class="nav-link active" data-toggle="tab" href="#enviar">Enviar criptomoneda</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#recibir">Recibir criptomoneda</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#acta">Actas</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="enviar" class="tab-pane active">
+                            <h2>Enviar criptomoneda</h2>
+                            <div class="jumbotron jumbotron-fluid">
+                                <div class="container well">
+                                    <div class="row">
+                                      <div class="col-xs-6 col-md-8">En tu billetera:</div>
+                                      <div class="col-xs-6 col-md-4"><strong>0</strong> BTC</div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-xs-6 col-md-8">Tarifa de transacción:</div>
+                                      <div class="col-xs-6 col-md-4"><strong>0.00005</strong> BTC</div>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                      <div class="col-xs-6 col-md-8">Puede enviar hasta:</div>
+                                      <div class="col-xs-6 col-md-4"><strong>0</strong> BTC</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <form>
+                                <h6 class="tlf">Recibiendo dirección bitcoin</h6>
+                                <div class="input-group mb-3">
+                                  <div class="input-group-prepend">
+                                    <span class="pc-table input-group-text">Recibiendo dirección bitcoin</span>
+                                  </div>
+                                  <input type="text" class="form-control" placeholder="Dirección de criptomoneda">
+                                </div>
+                                <h6 class="tlf">Cantidad en bitcoins</h6>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                      <span class="pc-table input-group-text">Cantidad en bitcoins</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="0.0000">
+                                </div>
+                                <h6 class="tlf">Descripción</h6>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                      <span class="pc-table input-group-text">Descripción</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Aparece en la lista de transición">
+                                </div>
+                                <h6 class="tlf">Cantidad</h6>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="pc-table input-group-text">Cantidad</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="0.00">
+                                </div>
+                                <select name="cars" class="custom-select mb-3">
+                                    <option value="AED">AED</option>
+                                    <option value="AFN">AFN</option>
+                                    <option value="ALL">ALL</option>
+                                    <option value="AMD">AMD</option>
+                                    <option value="ANG">ANG</option>
+                                    <option value="AOA">AOA</option>
+                                    <option value="ARS">ARS</option>
+                                    <option value="AUD">AUD</option>
+                                    <option value="AWG">AWG</option>
+                                    <option value="AZN">AZN</option>
+                                    <option value="BAM">BAM</option>
+                                    <option value="BBD">BBD</option>
+                                    <option value="BDT">BDT</option>
+                                    <option value="BGN">BGN</option>
+                                    <option value="BHD">BHD</option>
+                                    <option value="BIT">BIF</option>
+                                    <option value="BMD">BMD</option>
+                                    <option value="BND">BND</option>
+                                    <option value="BOB">BOB</option>
+                                    <option value="BRL">BRL</option>
+                                    <option value="BSD">BSD</option>
+                                    <option value="BTN">BTN</option>
+                                    <option value="BWP">BWP</option>
+                                    <option value="BYR">BYR</option>
+                                    <option value="BZD">BZD</option>
+                                    <option value="CAD">CAD</option>
+                                    <option value="CDF">CDF</option>
+                                    <option value="CHF">CHF</option>
+                                    <option value="CLF">CLF</option>
+                                    <option value="CLP">CLP</option>
+                                    <option value="CNH">CNH</option>
+                                    <option value="CNY">CNY</option>
+                                    <option value="COP">COP</option>
+                                    <option value="CRC">CRC</option>
+                                    <option value="CUC">CUC</option>
+                                    <option value="COP">COP</option>
+                                    <option value="CVE">CVE</option>
+                                    <option value="CZK">CZK</option>
+                                    <option value="DASH">DASH</option>
+                                    <option value="DJF">DJF</option>
+                                    <option value="DKK">DKK</option>
+                                    <option value="DOP">DOP</option>
+                                    <option value="DZD">DZD</option>
+                                    <option value="EEK">EEK</option>
+                                    <option value="EGP">EGP</option>
+                                    <option value="ERN">ERN</option>
+                                    <option value="ETB">ETB</option>
+                                    <option value="ETH">ETH</option>
+                                    <option value="EUR">EUR</option>
+                                    <option value="FJD">FJD</option>
+                                    <option value="FKP">FKP</option>
+                                    <option value="GBP">GBP</option>
+                                    <option value="GEL">GEL</option>
+                                    <option value="GGP">GGP</option>
+                                    <option value="GHS">GHS</option>
+                                    <option value="GIP">GIP</option>
+                                    <option value="GMD">GMD</option>
+                                    <option value="GNF">GNF</option>
+                                    <option value="GTQ">GTQ</option>
+                                    <option value="GYD">GYD</option>
+                                    <option value="HKD">HKD</option>
+                                    <option value="HNL">HNL</option>
+                                    <option value="HRK">HRK</option>
+                                    <option value="HTG">HTG</option>
+                                    <option value="HUF">HUF</option>
+                                    <option value="IDR">IDR</option>
+                                    <option value="ILS">ILS</option>
+                                    <option value="IMP">IMP</option>
+                                    <option value="INR">INR</option>
+                                    <option value="IQD">IQD</option>
+                                    <option value="IRR">IRR</option>
+                                    <option value="ISK">ISK</option>
+                                    <option value="JEP">JEP</option>
+                                    <option value="JMD">JMD</option>
+                                    <option value="JOD">JOD</option>
+                                    <option value="JPY">JPY</option>
+                                    <option value="KES">KES</option>
+                                    <option value="KGS">KGS</option>
+                                    <option value="KHR">KHR</option>
+                                    <option value="KMF">KMF</option>
+                                    <option value="KPW">KPW</option>
+                                    <option value="KRW">KRW</option>
+                                    <option value="KWD">KWD</option>
+                                    <option value="KYD">KYD</option>
+                                    <option value="KZT">KZT</option>
+                                    <option value="LAK">LAK</option>
+                                    <option value="LBP">LBP</option>
+                                    <option value="LKR">LKR</option>
+                                    <option value="LRD">LRD</option>
+                                    <option value="LSL">LSL</option>
+                                    <option value="LTC">LTC</option>
+                                    <option value="LTL">LTL</option>
+                                    <option value="LVL">LVL</option>
+                                    <option value="LYD">LYD</option>
+                                    <option value="MAD">MAD</option>
+                                    <option value="MDL">MDL</option>
+                                    <option value="MGA">MGA</option>
+                                    <option value="MKD">MKD</option>
+                                    <option value="MMK">MMK</option>
+                                    <option value="MNT">MNT</option>
+                                    <option value="MOP">MOP</option>
+                                    <option value="MRO">MRO</option>
+                                    <option value="MRU">MRU</option>
+                                    <option value="MTL">MTL</option>
+                                    <option value="MUR">MUR</option>
+                                    <option value="MVR">MVR</option>
+                                    <option value="MWK">MWK</option>
+                                    <option value="MXN">MXN</option>
+                                    <option value="MYR">MYR</option>
+                                    <option value="MZN">MZN</option>
+                                    <option value="NAD">NAD</option>
+                                    <option value="NGN">NGN</option>
+                                    <option value="NIO">NIO</option>
+                                    <option value="NOK">NOK</option>
+                                    <option value="NPR">NPR</option>
+                                    <option value="NZD">NZD</option>
+                                    <option value="OMR">OMR</option>
+                                    <option value="PAB">PAB</option>
+                                    <option value="PEN">PEN</option>
+                                    <option value="PGK">PGK</option>
+                                    <option value="PHP">PHP</option>
+                                    <option value="PKR">PKR</option>
+                                    <option value="PLN">PLN</option>
+                                    <option value="PYG">PYG</option>
+                                    <option value="QAR">QAR</option>
+                                    <option value="RON">RON</option>
+                                    <option value="RSD">RSD</option>
+                                    <option value="RUB">RUB</option>
+                                    <option value="RWF">RWF</option>
+                                    <option value="SAR">SAR</option>
+                                    <option value="SBD">SBD</option>
+                                    <option value="SCR">SCR</option>
+                                    <option value="SDG">SDG</option>
+                                    <option value="SEK">SEK</option>
+                                    <option value="SGD">SGD</option>
+                                    <option value="SHP">SHP</option>
+                                    <option value="SLL">SLL</option>
+                                    <option value="SOS">SOS</option>
+                                    <option value="SRD">SRD</option>
+                                    <option value="SSP">SSP</option>
+                                    <option value="STD">STD</option>
+                                    <option value="STN">STN</option>
+                                    <option value="SVC">SVC</option>
+                                    <option value="SYP">SYP</option>
+                                    <option value="SZL">SZL</option>
+                                    <option value="THB">THB</option>
+                                    <option value="TJS">TJS</option>
+                                    <option value="TMT">TMT</option>
+                                    <option value="TND">TND</option>
+                                    <option value="TOP">TOP</option>
+                                    <option value="TRY">TRY</option>
+                                    <option value="TTD">TTD</option>
+                                    <option value="TWD">TWD</option>
+                                    <option value="TZS">TZS</option>
+                                    <option value="UAH">UAH</option>
+                                    <option value="UGX">UGX</option>
+                                    <option value="USD">USD</option>
+                                    <option value="UYU">UYU</option>
+                                    <option value="UZS">UZS</option>
+                                    <option value="VES" selected>VES</option>     
+                                    <option value="VND">VND</option>
+                                    <option value="VUV">VUV</option>
+                                    <option value="WST">WST</option>
+                                    <option value="XAF">XAF</option>
+                                    <option value="XAG">XAG</option>
+                                    <option value="XAR">XAR</option>
+                                    <option value="XAU">XAU</option>
+                                    <option value="XCD">XCD</option>
+                                    <option value="XDR">XDR</option>
+                                    <option value="XMR">XMR</option>
+                                    <option value="XOF">XOF</option>
+                                    <option value="XPD">XPD</option>
+                                    <option value="XPF">XPF</option>
+                                    <option value="XPT">XPT</option>
+                                    <option value="XRP">XRP</option>
+                                    <option value="YER">YER</option>
+                                    <option value="ZAR">ZAR</option>
+                                    <option value="ZMK">ZMK</option>
+                                    <option value="ZMW">ZMW</option>
+                                    <option value="ZWL">ZWL</option> 
+                                </select>
+                                <button type="submit" class="btn-blue btn">Continuar</button>
+                            </form>
+                        </div>
+                        <div id="recibir" class="tab-pane fade">
+                            <!--<img src="img/construccion.png" width="80%" class="img-construccion">-->
+                            <h2>Recibir bitcoins</h2>
+                            <p>Dar la dirección de bitcoin a continuación para recibir bitcoins.</p>
+                            <div class="bitcoin-address-container display-none" data-bc-address="gfhfghfddfg" style="display: block;">
+                                <div>
+                                    <b class="receive-address">
+                                        <span class="bitcoin-address bitcoin-address-controls">
+                                            <font style="vertical-align: inherit">
+                                                <font style="vertical-align: inherit">
+                                                    3BdfZK1wDviV2dW61y6uU8b1CZNwZXcn35 
+                                                </font>
+                                            </font>
+                                        </span>
+                                    </b>
+                                    <!--<button class="btn btn-default bitcoin-address-action bitcoin-address-action-copy">
+                                        <i class="fa fa-files-o"></i>
+                                    </button>-->
+                                </div>
+                            </div>
+                            <div id="accordion" style="padding: 30px">
+                                <div class="card">
+                                  <div class="card-header">
+                                    <a class="card-link icon-down-open" data-toggle="collapse" href="#collapseOne">
+                                        Transacciones y tarifas entrantes
+                                    </a>
+                                  </div>
+                                  <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                    <div class="card-body">
+                                      <p>Tarifa de depósito actual para transacciones entrantes: <b>0.00015 </b>BTC</p>
+                                      <p>Recibir Bitcoin generalmente toma 30 minutos, sin embargo, puede demorar hasta 14 días o más. Una transacción entrante debe recibir 3 <a href="https://en.bitcoin.it/wiki/Confirmation" style="text-decoration: none" target="black">confirmaciones de la red Bitcoin</a> para aparecer en su billetera.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="card">
+                                  <div class="card-header">
+                                    <a class="collapsed card-link icon-down-open" data-toggle="collapse" href="#collapseTwo">
+                                        Direcciones antiguas
+                                  </a>
+                                  </div>
+                                  <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+                                      <p>Para proteger su privacidad, proporcionamos una nueva dirección de bitcoin para cada transferencia. Esto evita que alguien realice un seguimiento de todos los pagos que recibe al mirar la cadena de bloques.</p>
+                                      <p>Tenga en cuenta que las direcciones son válidas sólo por 12 meses.</p>
+                                    </div>
+                                    <table class="table table-striped">
+                                        <thead>
+                                          <tr>
+                                            <th>Creado</th>
+                                            <th>Dirección</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>28 de octubre de 2018</td>
+                                            <td>3BdfZK1wD ...</td>
+                                          </tr>
+                                          </tbody>
+                                      </table>
+                                  </div>
+                                </div>
+                                <div class="card">
+                                  <div class="card-header">
+                                    <a class="collapsed card-link icon-down-open" data-toggle="collapse" href="#collapseThree">
+                                        Código QR para móvil
+                                    </a>
+                                  </div>
+                                  <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+                                      <p>Esta es su dirección de recepción como un código QR. Es posible enviarle bitcoins desde carteras móviles al escanear este código.</p>
+                                      <img src="img/unnamed.png" style="position: relative; left: 50%; transform: translateX(-50%)" class="">
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="acta" class="tab-pane fade">
+                            <h2>Transacciones billetera</h2>
+                            <p>A continuación se muestra la historia de su billetera LocalBitcoins.</p>                    
+                            <div class="tabla-acta">            
+                                <table class="table table-striped">
+                                    <thead>
+                                    <tr>
+                                        <th>Fecha</th>
+                                        <th>BTC recibido</th>
+                                        <th>BTC enviado</th>
+                                        <th>Descripción</th>
+                                        <th>Cuota de depósito BTC</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td></td>
+                                        <td>BTC total recibido</td>
+                                        <td>BTC total enviado</td>
+                                        <td></td>
+                                        <td>Cuota de depósito total BTC</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td>0</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="herramienta" class="tab-pane">
+            <img src="img/construccion.png" width="80%" class="img-construccion">
+        </div>
+        <div id="configuracion" class="tab-pane">
+            <img src="img/construccion.png" width="80%" class="img-construccion">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p> Exchange | Desarrollado por Adinson Polanco</p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="dist/Chart.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>

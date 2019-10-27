@@ -1,0 +1,51 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background: #f4f7fa
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.content-tabla{
+    width: 100%;
+    margin-top: 30px;
+    
+}
+.content-tabla .tabla{
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.176) 0px 7.11481px 14.2296px 0px, rgba(0,0,0,0.17) 0px 5.33611px 17.787px 0px;
+}
+.content-tabla .tabla .table tbody a{
+    text-decoration: none;
+    transition: .5s
+}
+.content-tabla .tabla .table tbody a:hover{
+    color: rgb(131, 131, 131);
+    transition: .5s
+}
+.footer{
+    position: relative;
+    width: 100%;
+    background: #0080ff;
+    color: #fff;
+    margin-top: 110px;
+    margin-bottom: 0;
+    bottom: 0;
+    padding: 20px 0px;
+    text-align: center;
+    clear: both;
+    float: left;
+}
+.footer p{
+    margin: 20px;
+}
+@media (max-width:1024px){
+    .footer{
+        position: relative;
+        background: #0080ff;
+        margin-top: 60px;
+        padding: 20px 20px;
+        text-align: center; 
+    }
+}

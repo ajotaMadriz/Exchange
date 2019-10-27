@@ -1,0 +1,20 @@
+/*$(document).ready(function(){
+    $('.toggle').click(function(){
+        $('.toggle').toggleClass('active')
+        $('.overlay').toggleClass('active')
+        $('.menu').toggleClass('active')
+    })
+})
+$(document).ready(function(){
+    $('.menu-a').click(function(){
+        $('.toggle').toggleClass('active')
+        $('.overlay').toggleClass('active')
+        $('.menu').toggleClass('active')
+    })
+})*/
+$(document).ready(function(){
+    $('.toggle').click(function(){
+        $('.toggle').toggleClass('active')
+        $('ul').toggleClass('active')
+    })
+})
